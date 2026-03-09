@@ -1,0 +1,4 @@
+The challenge gives us a photo of the "Burger guy", with the challenge desc something like "One of the fun things about steganography is the ways new tools can always be used...". 
+This was kind of an OSINT question in the sense one had to find the tool that was used to hide the flag inside the image. This was kind of hard because there are tons of stuff, but focusing on "new ways" and the name of the challenges itself, it could either be encrypted (which is unlikely given no ciphers or potentially encrypted stuff can be found), enhanced lsb techniques (which also doesn't seem to be the case) or AI based steganography techniques. 
+Using steganoGAN in order to decode the image we get a string which seems to be the length of the flag. On running it through a ROT-47 decrypter we get the flag.
+Flag:TACHYON{g4n_5t3g0s_co0l_ng1_34rf2p49}
