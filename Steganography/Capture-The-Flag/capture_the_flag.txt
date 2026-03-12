@@ -1,0 +1,10 @@
+Capture The Flag
+
+The first part will involve finding a link that is hidden in the PDF, it has been placed right below the DEF-CON image. The hypertext link can be found by hovering around the image but it is really hard to find it that way.
+
+One of the ways of finding the link is using an online tool for extracting all the links(I have mentioned a link to a website that will do it), then once you scan through the different links you should find a link like this: "https://gbhwvro{w3ii0_4qq1o3_h1uw3a}/"
+
+Now the final part for cracking this is finding the cipher. This one is an affine cipher. When you decipher it, you get the flag.
+
+https://ilovepdf3.com/pdf-link-extractor/
+I believe that there are more ways of finding the links, if you do know please let me know on my email "ee25b046@iittp.ac.in"
