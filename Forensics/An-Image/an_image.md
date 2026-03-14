@@ -1,5 +1,7 @@
-An Image?
+# An Image?
 
 Change the header of the PNG file, i.e. the first 4 bytes of the file, to the general PNG header format.
+
 The image will reveal a QR code that has a text that has been encrypted in base64 format.
+
 The flag is revealed when the text is decrypted.

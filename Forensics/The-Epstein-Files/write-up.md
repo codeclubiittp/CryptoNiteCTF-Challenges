@@ -1,0 +1,9 @@
+# The Epstein Files Write-up
+
+The flag was divided in 3 parts:
+
+1. AES-128 key obtained from copy pasting to get through redactions.
+2. AES IV value as a comment in the pdf.
+3. The encrypted flag itself in a 4th page obtained by manipulating the Page tree for the pdf.
+
+**Flag:** `TACHYON{PDF_St3g4n0gr4phy_i5_kool_5tau36}`
